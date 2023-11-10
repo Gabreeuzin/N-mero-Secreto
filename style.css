@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Roboto+Mono & display=swap');
+
+:root {
+    --font-family: 'Roboto Mono', monospace;
+    --bg-cor: #AC4425;
+    --cor-primaria: #F0F2B6;
+}
+
+body {
+    background-color: var(--bg-cor);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 15px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 20px;
+}
